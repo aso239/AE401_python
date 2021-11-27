@@ -14,17 +14,17 @@ sum=0
 for i in range(0,5,1):
     sum=sum+score[i]
 print(sum/5)
-a=[1,2,3,4,5]
+a=[1,2,3,4,5,]
 m=0
 for i in range(0,5,1,):
-    if(m<a[i]):
-        m=a[i]
+    if(m<score[i]):
+        m=score[i]
 print(m)
 a=[1,2,3,4,5]
-m=0
+m=1000
 for i in range(0,5,1,):
-    if(m>a[i]):
-        m=a[i]
+    if(m>score[i]):
+        m=score[i]
 print(m)
 
 
